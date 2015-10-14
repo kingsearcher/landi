@@ -1,0 +1,190 @@
+@charset "UTF-8";
+* {
+  font-family: "微软雅黑";
+  font-size: 12px; }
+
+html, body {
+  background: url("../images/bf.jpg"); }
+
+.uk-width-1-3 a {
+  text-decoration: none; }
+
+ul, li {
+  margin: 0px;
+  padding: 0px; }
+
+.uk-width-1-3 p {
+  text-align: center;
+  color: #fff;
+  line-height: 30px;
+  margin-top: 0px;
+  font-size: 14px; }
+
+.my-nav-dot {
+  right: 5px;
+  bottom: 5px; }
+  .my-nav-dot a {
+    width: 15px;
+    height: 15px; }
+
+.my-content {
+  margin-top: 25px; }
+  .my-content img {
+    padding: 10px; }
+
+.my-chance {
+  list-style: none;
+  width: 200px; }
+  .my-chance li {
+    border: 1px dashed #00ffba;
+    height: 60px;
+    width: 190px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px; }
+    .my-chance li i {
+      width: 25px;
+      height: 25px;
+      display: inline-block;
+      -webkit-border-radius: 25px;
+      -moz-border-radius: 25px;
+      border-radius: 25px;
+      border: 1px dashed #00ffba;
+      float: left;
+      margin-left: 6px; }
+    .my-chance li a {
+      line-height: 30px;
+      font-size: 16px;
+      font-weight: bold;
+      display: inline-block;
+      text-decoration: none;
+      color: #00e2ba;
+      float: left;
+      margin: 0px 26px; }
+  .my-chance li:nth-child(even) {
+    border-top: none;
+    border-bottom: none;
+    width: 149px;
+    margin-left: 20px;
+    height: 20px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px; }
+  .my-chance .my-chance-head, .my-chance .my-chance-footer {
+    height: 15px;
+    width: 100%;
+    float: left; }
+  .my-chance .my-chance-footer {
+    width: 149px;
+    border-left: 1px dashed #00ffba;
+    border-right: 1px dashed #00ffba;
+    margin-left: 19px; }
+
+.my-bottom {
+  height: 50px;
+  background: #001c17;
+  line-height: 50px;
+  -webkit-box-shadow: 0px -1px 2px 1px #000;
+  -moz-box-shadow: 0px -1px 2px 1px #000;
+  box-shadow: 0px -1px 1px 1px #000;
+  position: fixed;
+  z-index: 9999;
+  bottom: 0px;
+  left: 0px; }
+  .my-bottom .uk-width-1-1 a {
+    color: #fff;
+    text-decoration: none; }
+  .my-bottom .uk-width-1-1 a:not(:first-child) {
+    margin-left: 10px; }
+
+.my-notepad {
+  width: 90%;
+  height: 100%;
+  margin: 20px auto 0px auto;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 0px 5px -1px #000;
+  -moz-box-shadow: 0px 0px 5px -1px #000;
+  box-shadow: 0px 0px 5px -1px #000;
+  background: rgba(0, 44, 38, 0.6); }
+  .my-notepad > ul > li {
+    padding: 10px 0px;
+    border-bottom: 1px solid #042e26;
+    width: 90%;
+    margin-left: 30px; }
+  .my-notepad ul {
+    margin-bottom: 20px; }
+  .my-notepad > h3, .my-notepad > p {
+    font-family: "微软雅黑";
+    margin-left: 10px; }
+  .my-notepad > h3 {
+    color: #22bea3;
+    padding-top: 10px; }
+  .my-notepad > p {
+    color: #2eb099;
+    margin-top: -10px; }
+  .my-notepad .my-img-head {
+    height: 60px;
+    width: 60px;
+    display: inline-block;
+    border: 1px solid #22bea3;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px; }
+    .my-notepad .my-img-head h4, .my-notepad .my-img-head p {
+      line-height: 0px;
+      color: #22bea3; }
+    .my-notepad .my-img-head h4 {
+      margin-top: 20px; }
+
+.my-border {
+  width: 90%; }
+  .my-border img {
+    float: left; }
+
+.uk-form input, .uk-form textarea {
+  width: 90%;
+  margin: 10px 5%;
+  resize: none;
+  border: 1px solid #00ffba !important;
+  color: #000;
+  background: transparent !important;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px; }
+.uk-form input {
+  height: 40px !important; }
+.uk-form button {
+  display: block;
+  background: #077b66 !important;
+  color: #00ffba;
+  border-radius: 5px;
+  margin-left: 5%; }
+.uk-form video {
+  width: 100% !important; }
+
+.my-img-head, .my-img {
+  float: left; }
+
+.my-img {
+  margin-left: 10px; }
+  .my-img span {
+    display: block; }
+  .my-img :first-child {
+    font-size: 14px;
+    font-weight: bold;
+    color: #00ffba; }
+  .my-img :nth-child(2) {
+    color: #00ffba; }
+
+.my-notepad-nav {
+  background: #115350;
+  padding: 5px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px; }
+  .my-notepad-nav span {
+    font-size: 14px;
+    color: #00ffba; }
+
+/*# sourceMappingURL=style.css.map */

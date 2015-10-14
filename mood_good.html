@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>关于我们</title>
+    <link rel="stylesheet" href="uikit/css/uikit.min.css"/>
+    <link rel="stylesheet" href="style/style.css"/>
+    <style>
+
+        nav{
+            background: rgb(0,28,23) !important ;
+        }
+
+        i{
+            color:#fff;
+        }
+
+        .uk-button-dropdown button
+        {
+            background: rgb(0,28,23) !important ;
+            color: #fff;
+        }
+
+        .uk-thumbnail
+        {
+            border:1px solid #2eb099;
+            padding: 10px;
+            background: rgba(255,255,255,0.1);
+            margin-left: -10px;
+        }
+
+        .uk-width-1-2{
+            margin-top: 10px;;
+        }
+
+        .uk-width-1-2 .uk-thumbnail-caption
+        {
+            color: rgb(46,176,153) !important;
+            font-family: "微软雅黑";
+            font-size: 14px;
+        }
+
+        .uk-dropdown
+        {
+            background: rgba(38,140,122,0.5);
+            float: left;
+            margin-left: -51px;
+        }
+
+        .uk-dropdown li,.uk-dropdown li a{
+            color: #00ffd2 !important;
+        }
+
+        .uk-dropdown li a:hover
+        {
+            background: rgba(38,140,122,0.5) !important;
+            color: #00ffd2 !important;
+        }
+
+        .uk-parent a:hover{
+            background: rgb(0,28,23) !important;
+        }
+
+        .uk-dropdown li
+        {
+            background:#2b8c7a;
+            float: left;
+            width: 49.5%;
+            margin-top: 1px;
+            margin-left: 1px;
+
+        }
+
+        .uk-dropdown ul{
+            padding: 0px 5px;
+
+        }
+
+
+
+        .my-uu li
+        {
+            background: rgba(0,0,0,0.1) !important;
+            width: 100%;
+            padding: 5px 0px;
+
+        }
+        .my-uu li:last-child
+        {
+            margin-bottom: 5px;
+        }
+
+    </style>
+</head>
+<body>
+<nav class="uk-navbar">
+
+    <ul class="uk-navbar-nav">
+        <li class="uk-parent"><a href=""><i class="uk-icon-reply"></i></a></li>
+    </ul>
+
+    <div class="uk-navbar-flip">
+        <ul class="uk-navbar-nav">
+            <li class="uk-parent" >
+                <a href=""><i class="uk-icon-home"></i></a>
+            </li>
+        </ul>
+    </div>
+
+    <div class="uk-navbar-content uk-navbar-center" >
+        <div class="uk-button-dropdown" data-uk-dropdown>
+            <button class="uk-button">选择分类 <i class="uk-icon-caret-down"></i></button>
+            <div class="uk-dropdown" style="width:218px">
+                        <ul class="uk-nav uk-nav-dropdown">
+                            <li>
+                                <a href="#">实木家具系列</a>
+                                <ul class="my-uu">
+                                    <li><a href="#">次级导航</a></li>
+                                    <li><a href="#">次级导航</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">实木楼梯系列</a>
+                                <ul class="my-uu">
+                                    <li><a href="#">次级导航</a></li>
+                                    <li><a href="#">次级导航</a></li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <a href="#">实木楼梯系列</a>
+                                <ul class="my-uu">
+                                    <li><a href="#">次级导航</a></li>
+                                    <li><a href="#">次级导航</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+            </div>
+        </div>
+    </div>
+
+</nav>
+    <div class="uk-grid uk-container-center">
+        <div class="uk-width-1-2">
+            <a href="#">
+                <div class="uk-thumbnail">
+                    <img src="images/door.png" class="uk-thumbnail-expand" alt="">
+                    <div class="uk-thumbnail-caption">原木门系列</div>
+                </div>
+            </a>
+        </div>
+        <div class="uk-width-1-2">
+            <a href="#">
+            <div class="uk-thumbnail">
+            <img src="images/door.png" class="uk-thumbnail-expand" alt="">
+            <div class="uk-thumbnail-caption">原木门系列</div>
+            </div>
+            </a>
+        </div>
+        <div class="uk-width-1-2">
+            <a href="#">
+                <div class="uk-thumbnail">
+                    <img src="images/door.png" class="uk-thumbnail-expand" alt="">
+                    <div class="uk-thumbnail-caption">原木门系列</div>
+                </div>
+            </a>
+        </div>
+        <div class="uk-width-1-2">
+        <a href="#">
+            <div class="uk-thumbnail">
+                <img src="images/door.png" class="uk-thumbnail-expand" alt="">
+                <div class="uk-thumbnail-caption">原木门系列</div>
+            </div>
+        </a>
+    </div>
+
+    </div>
+</body>
+</html>
+<script src="uikit/js/jquery.js"></script>
+<script src="uikit/js/uikit.min.js"></script>

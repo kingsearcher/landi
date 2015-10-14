@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>关于我们</title>
+    <link rel="stylesheet" href="uikit/css/uikit.min.css"/>
+    <link rel="stylesheet" href="style/style.css"/>
+    <style>
+        .my-square
+        {
+            width:120px ;
+            height: 120px;
+            background: rgb(0,82,67);
+            border-radius: 200px;
+            margin: 0px auto;
+            display: block;
+        }
+
+        .my-square>img:first-child
+        {
+            width: 100%;
+            height: 50%;
+            border-top-left-radius: 120px;
+            border-top-right-radius: 120px;
+        }
+
+
+        .my-square>p{
+            color:rgb(0,255,218);
+        }
+
+        .my-square-area
+        {
+            width: 320px;
+            margin: 40px auto 80px auto;
+        }
+        .my-square-1>a,.my-square-2>a
+        {
+            float: left;
+        }
+
+
+
+
+
+        .my-square-1>.my-square:nth-child(1)
+        {
+            margin-left: 40px;
+        }
+
+
+        .my-square-2>.my-square:nth-child(1)
+        {
+            margin-left: 20px;
+        }
+
+        .my-square-2>.my-square:nth-child(2)
+        {
+            margin-left:50px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="uk-grid">
+        <div class="uk-width-1-1 uk-text-center">
+            <img src="images/about_head.png" class="uk-thumbnail-expand" alt=""/>
+            <img src="images/style1.png" style="width: 80%;height: 80%;margin-top: 30px;"  class="uk-thumbnail-expand" alt=""/>
+        </div>
+
+        <div class="my-square-area uk-text-center">
+                <div class="my-square-0">
+                    <a href="#" class="my-square">
+                        <img src="images/bannar.jpg" alt=""/>
+                        <p>原木整装介绍</p>
+                    </a>
+                </div>
+                <div class="my-square-1" >
+                    <a href="#" class="my-square">
+                        <img src="images/bannar.jpg" alt=""/>
+                        <p>定制产品</p>
+                    </a>
+                    <a href="#" class="my-square">
+                        <img src="images/bannar.jpg" alt=""/>
+                        <p>定制优势</p>
+                    </a>
+                </div>
+                <div class="my-square-2 ">
+                    <a href="#" class="my-square">
+                        <img src="images/bannar.jpg" alt=""/>
+                        <p>整装案列</p>
+                    </a>
+                    <a href="#" class="my-square">
+                        <img src="images/bannar.jpg" alt=""/>
+                        <p>定制流程</p>
+                    </a>
+                </div>
+
+        </div>
+
+        <div class="uk-width-1-1 my-bottom uk-text-center">
+            <div class="uk-grid">
+                <div class="uk-width-1-1">
+                    <a href=""><i class="uk-icon-home"></i> <span>微首页</span></a>
+                    <a href=""><i class="uk-icon-heart"></i> <span>招商加盟</span></a>
+                    <a href=""><i class="uk-icon-street-view"></i> <span>一键导航</span></a>
+                    <a href="tel:10086"><i class="uk-icon-phone"></i> <span>一键拨号</span></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <canvas id="test" width="400px" height="400px"></canvas>
+</body>
+</html>
